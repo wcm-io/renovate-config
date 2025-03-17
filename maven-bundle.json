@@ -1,0 +1,27 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":semanticCommitsDisabled"
+  ],
+  "enabledManagers": [
+    "maven"
+  ],
+  "ignoreDeps": [
+    "io.wcm:io.wcm.caconfig.editor",
+    "io.wcm:io.wcm.caconfig.extensions",
+    "io.wcm:io.wcm.handler.commons",
+    "io.wcm:io.wcm.handler.link",
+    "io.wcm:io.wcm.handler.media",
+    "io.wcm:io.wcm.handler.richtext",
+    "io.wcm:io.wcm.handler.url",
+    "io.wcm:io.wcm.sling.commons",
+    "io.wcm:io.wcm.sling.models",
+    "io.wcm:io.wcm.tooling.commons.content-package-builder",
+    "io.wcm:io.wcm.wcm.commons",
+    "io.wcm:io.wcm.wcm.core.components",
+    "io.wcm:io.wcm.wcm.parsys",
+    "io.wcm:io.wcm.wcm.ui.clientlibs",
+    "io.wcm:io.wcm.wcm.ui.granite"
+  ]
+}
