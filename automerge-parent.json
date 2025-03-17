@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackageNames": [
+        "o.wcm.maven.global-parent",
+        "io.wcm.maven.aem-global-parent",
+        "io.wcm.maven.parent",
+        "io.wcm.parent_toplevel"
+      ],
+      "automerge": true
+    }
+  ]
+}
