@@ -9,7 +9,8 @@
         "org.mockito:*",
         "io.wcm:io.wcm.testing.*",
         "org.apache.sling:org.apache.sling.testing.*",
-        "org.skyscreamer:jsonassert"
+        "org.skyscreamer:jsonassert",
+        "org.wiremock:wiremock:*"
       ],
       "automerge": true
     }
