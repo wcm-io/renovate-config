@@ -4,6 +4,7 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
+        "org.junit:junit-bom",
         "org.junit.jupiter:*",
         "org.mockito:*",
         "io.wcm:io.wcm.testing.*",
