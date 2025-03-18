@@ -4,10 +4,10 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": [
-        "io.wcm.maven.global-parent",
-        "io.wcm.maven.aem-global-parent",
-        "io.wcm.maven.parent",
-        "io.wcm.parent_toplevel"
+        "io.wcm.maven:io.wcm.maven.global-parent",
+        "io.wcm.maven:io.wcm.maven.aem-global-parent",
+        "io.wcm.maven:io.wcm.maven.parent",
+        "io.wcm:io.wcm.parent_toplevel"
       ],
       "automerge": true
     }
