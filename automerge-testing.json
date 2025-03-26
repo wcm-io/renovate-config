@@ -12,7 +12,8 @@
         "org.skyscreamer:jsonassert",
         "org.wiremock:wiremock:*"
       ],
-      "automerge": true
+      "automerge": true,
+      "addLabels": ["automerge"]
     }
   ]
 }

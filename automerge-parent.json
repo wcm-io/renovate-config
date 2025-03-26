@@ -6,7 +6,8 @@
       "matchPackageNames": [
         "io.wcm.maven:io.wcm.maven.global-parent"
       ],
-      "automerge": true
+      "automerge": true,
+      "addLabels": ["automerge"]
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
@@ -15,7 +16,8 @@
         "io.wcm.maven:io.wcm.maven.parent",
         "io.wcm:io.wcm.parent_toplevel"
       ],
-      "automerge": true
+      "automerge": true,
+      "addLabels": ["automerge"]
     }
   ]
 }
