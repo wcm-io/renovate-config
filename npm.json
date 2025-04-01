@@ -11,5 +11,9 @@
   ],
   "npm": {
     "minimumReleaseAge": "3 days"
+  },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 10pm on sunday"]
   }
 }
