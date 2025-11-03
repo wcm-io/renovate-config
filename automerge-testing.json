@@ -10,7 +10,8 @@
         "io.wcm:io.wcm.testing.*",
         "org.apache.sling:org.apache.sling.testing.*",
         "org.skyscreamer:jsonassert",
-        "org.wiremock:wiremock:*"
+        "org.wiremock:wiremock*",
+        "org.xmlunit:xmlunit-*"
       ],
       "automerge": true,
       "addLabels": ["automerge"]
