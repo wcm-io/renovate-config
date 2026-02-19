@@ -6,7 +6,8 @@
   ],
   "labels": ["dependencies"],
   "enabledManagers": [
-    "maven"
+    "maven",
+    "github-actions"
   ],
   "ignoreDeps": [
     "io.wcm:io.wcm.caconfig.editor",

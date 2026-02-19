@@ -6,6 +6,7 @@
   ],
   "labels": ["dependencies"],
   "enabledManagers": [
-    "maven"
+    "maven",
+    "github-actions"
   ]
 }
